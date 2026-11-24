@@ -1,4 +1,5 @@
 [# CareLoop-Clinics-No-Show-Guard
+ Public Link - https://github.com/jalajarora777-tech/CareLoop-Clinics-No-Show-Guard
 
 
 *From raw bookings to predictive insights and AI-assisted decisions.*
