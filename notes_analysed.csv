@@ -1,0 +1,51 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,forgot_or_no_reminder,1.0,Patient missed appointment due to lack of reminder and forgetting the scheduled visit. Requested to reschedule for next week.,Reschedule appointment and verify patient contact information for future automated reminders.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed appointment due to lack of reminder and forgetting the scheduled visit. Requested to reschedule for next week."",
+  ""recommended_action"": ""Reschedule appointment and verify patient contact information for future automated reminders.""
+}"
+N002,A0897,,,,,invalid,
+N003,A0526,cost_or_fee,1.0,Patient missed appointment due to high consultation fees and inquired about potential discounts for follow-up visits.,Provide patient with information regarding financial assistance programs or sliding scale fee options.,valid,"{
+  ""root_cause"": ""cost_or_fee"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed appointment due to high consultation fees and inquired about potential discounts for follow-up visits."",
+  ""recommended_action"": ""Provide patient with information regarding financial assistance programs or sliding scale fee options.""
+}"
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,illness_or_emergency,1.0,Patient missed appointment due to high fever and body aches. Plans to reschedule once recovered.,Flag for rescheduling once the patient contacts the clinic after recovery.,valid,"{
+  ""root_cause"": ""illness_or_emergency"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed appointment due to high fever and body aches. Plans to reschedule once recovered."",
+  ""recommended_action"": ""Flag for rescheduling once the patient contacts the clinic after recovery.""
+}"
+N006,A0507,work_or_schedule,1.0,"Patient missed appointment due to an urgent, mandatory work meeting. Requested an evening appointment for future visits.",Reschedule patient for an evening time slot and update preference in the system.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed appointment due to an urgent, mandatory work meeting. Requested an evening appointment for future visits."",
+  ""recommended_action"": ""Reschedule patient for an evening time slot and update preference in the system.""
+}"
+N007,A0333,forgot_or_no_reminder,0.95,Patient forgot the appointment and stated they did not receive an SMS reminder. They requested to reschedule.,Reschedule appointment and verify patient contact information for SMS notifications.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient forgot the appointment and stated they did not receive an SMS reminder. They requested to reschedule."",
+  ""recommended_action"": ""Reschedule appointment and verify patient contact information for SMS notifications.""
+}"
+N008,A0222,distance_or_transport,1.0,"Patient missed appointment due to a city bus strike and lack of local transportation options, compounded by the distance to the clinic.",Offer telehealth options or assist with patient transport services for future appointments.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed appointment due to a city bus strike and lack of local transportation options, compounded by the distance to the clinic."",
+  ""recommended_action"": ""Offer telehealth options or assist with patient transport services for future appointments.""
+}"
+N009,A0977,other,0.9,Patient unreachable after three attempts; phone was switched off.,Send automated follow-up via SMS or email to request appointment rescheduling.,valid,"{
+  ""root_cause"": ""other"",
+  ""confidence"": 0.9,
+  ""summary"": ""Patient unreachable after three attempts; phone was switched off."",
+  ""recommended_action"": ""Send automated follow-up via SMS or email to request appointment rescheduling.""
+}"
+N010,A0596,work_or_schedule,1.0,Patient missed appointment due to a factory shift change and requested Saturday availability.,Update patient preference to Saturday only and offer waitlist for weekend slots.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 1.0,
+  ""summary"": ""Patient missed appointment due to a factory shift change and requested Saturday availability."",
+  ""recommended_action"": ""Update patient preference to Saturday only and offer waitlist for weekend slots.""
+}"
